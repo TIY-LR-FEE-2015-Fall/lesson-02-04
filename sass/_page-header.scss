@@ -1,0 +1,72 @@
+/**
+ * BLOCK: Page Header
+ */
+.page-header {
+  position: relative;
+
+  height: calc(100vh - 4rem);
+
+  overflow: hidden;
+  background: url("http://www.eveonline.com/vid/traffic.jpg")
+    no-repeat fixed center center;
+  background-size: cover;
+}
+
+.page-header__logo {
+  position: absolute;
+  top: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+.page-header__hero {
+  position: absolute;
+  top: calc(3rem + 100px);
+  left: 50%;
+  transform: translateX(-50%);
+
+  color: $brand_white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.page-header__btn {
+  position: absolute;
+  top: calc(9rem + 100px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.page-header__awards {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+
+  position: absolute;
+  top: calc(13rem + 100px);
+  left: 50%;
+  transform: translateX(-50%);
+
+  img {
+    margin: 1rem;
+    flex: 0 1 170px;
+  }
+}
+
+.page-header__download-info {
+  position: absolute;
+
+  margin: 0;
+  bottom: 1rem;
+  right: 1rem;
+
+  color: $brand_white;
+
+  a {
+    color: $brand_blue;
+  }
+}

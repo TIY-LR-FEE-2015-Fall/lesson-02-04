@@ -15,7 +15,7 @@ $brand_border: 1px $brand_blue solid;
 }
 
 body {
-  padding-top: $navbar_height + $verticle_rhythm; /* Pad for .top-nav */
+  padding-top: $navbar_height; /* Pad for .top-nav */
   color: $brand_dark_blue;
 }
 
@@ -25,3 +25,4 @@ a {
 
 @import "top-nav";
 @import "btn";
+@import "page-header";
