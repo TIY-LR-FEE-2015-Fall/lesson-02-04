@@ -1,0 +1,23 @@
+/**
+ * BLOCK: Buttons
+ */
+.btn {
+  padding: 0.8rem 1rem;
+  border: 1px #eee solid;
+
+  font-weight: bold;
+  color: white;
+}
+
+.btn:hover {
+  color: #09acdf;
+  background: white;
+}
+
+/**
+ * MODIFIER: Button Nav
+ */
+.btn--nav {
+  border-color: transparent;
+  background: #09acdf;
+}
