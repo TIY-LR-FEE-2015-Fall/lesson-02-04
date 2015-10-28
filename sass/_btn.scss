@@ -3,15 +3,15 @@
  */
 .btn {
   padding: 0.8rem 1rem;
-  border: 1px #eee solid;
+  border: 1px $brand_white solid;
 
   font-weight: bold;
-  color: white;
+  color: $brand_white;
 }
 
 .btn:hover {
-  color: #09acdf;
-  background: white;
+  color: $brand_blue;
+  background: $brand_white;
 }
 
 /**
@@ -19,5 +19,5 @@
  */
 .btn--nav {
   border-color: transparent;
-  background: #09acdf;
+  background: $brand_blue;
 }

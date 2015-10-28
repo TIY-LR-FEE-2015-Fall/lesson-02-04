@@ -11,15 +11,15 @@
   align-items: center;
 
   width: 100%;
-  height: 4rem;
+  height: $navbar_height;
   padding: 0.6rem;
 
   overflow: hidden;
 
-  background: #111;
+  background: $brand_black;
 
   text-transform: uppercase;
-  color: #eee;
+  color: $brand_white;
 }
 
 .top-nav__logo {
@@ -46,7 +46,7 @@
 }
 
 .top-nav__item a {
-  color: #eee;
+  color: $brand_white;
 
   padding: 0.2rem;
 }
@@ -56,5 +56,5 @@
  */
 .top-nav__item:hover a,
 .top-nav__item--active a {
-  border-top: 1px #09acdf solid;
+  border-top: $brand_border;
 }

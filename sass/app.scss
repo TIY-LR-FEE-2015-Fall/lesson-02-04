@@ -1,11 +1,22 @@
 @import "normalize";
 
+$navbar_height: 4rem;
+$verticle_rhythm: 2rem;
+
+$brand_blue: #09acdf;
+$brand_white: #ddd;
+$brand_black: #222;
+$brand_dark_blue: adjust-hue($brand_blue, 180deg);
+
+$brand_border: 1px $brand_blue solid;
+
 *, *::after, *::before {
   box-sizing: border-box;
 }
 
 body {
-  padding-top: 4rem; /* Pad for .top-nav */
+  padding-top: $navbar_height + $verticle_rhythm; /* Pad for .top-nav */
+  color: $brand_dark_blue;
 }
 
 a {
