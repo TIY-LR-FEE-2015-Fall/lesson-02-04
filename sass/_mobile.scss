@@ -1,0 +1,22 @@
+@media screen and (max-width: 800px) {
+  .top-nav {
+    display: none;
+  }
+
+  body {
+    padding-top: 0;
+  }
+
+  .page-header {
+    max-height: 20rem;
+  }
+
+  .page-header__hero {
+    font-size: 1.2rem;
+  }
+
+  .page-header__awards,
+  .page-header__download-info {
+    display: none;
+  }
+}
