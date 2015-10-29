@@ -1,0 +1,37 @@
+$gutter_width: 20px;
+
+@mixin yoga-container($max_width: 100%, $align_vert: stretch) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: $align_vert;
+
+  max-width: $max_width;
+  margin: auto;
+}
+
+@mixin yoga-even-column {
+  flex: 1;
+}
+
+@mixin yoga-column($num_col: 1, $grid_width: 12) {
+  $percent_wide: $num_col / $grid_width * 100;
+
+  flex: 0;
+  margin-left: $gutter_width;
+  margin-right: $gutter_width;
+
+  flex-basis: calc(#{$percent_wide}% - #{$gutter_width * 2});
+}
+
+.row {
+  // @include outer-container(1040px);
+  @include yoga-container(1040px);
+
+  p {
+    // @include span-columns(1 of 3);
+    // @include omega(3n);
+
+    background: blue;
+    @include yoga-column(1, 3);
+  }
+}

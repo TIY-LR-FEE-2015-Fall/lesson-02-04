@@ -35,6 +35,8 @@
 }
 
 .page-header__btn {
+  @extend .btn--action;
+
   position: absolute;
   top: calc(9rem + 100px);
   left: 50%;

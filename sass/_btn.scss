@@ -19,6 +19,8 @@
  * MODIFIER: Button Nav
  */
 .btn--nav {
+  @extend .btn;
+
   border-color: transparent;
   background: $brand_blue;
 }
@@ -27,6 +29,8 @@
  * MODIFIER: Button Action
  */
 .btn--action {
+  @extend .btn;
+
   border-color: transparent;
   background: $brand_blue;
 }

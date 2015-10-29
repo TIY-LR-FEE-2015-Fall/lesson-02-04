@@ -4,6 +4,8 @@ var Sass = require('broccoli-sass');
 var stylePaths = [
   'sass',
   'bower_components/normalize-css',
+  'bower_components/bourbon/app/assets/stylesheets',
+  'bower_components/neat/app/assets/stylesheets',
   'bower_components/font-awesome/scss',
 ];
 
